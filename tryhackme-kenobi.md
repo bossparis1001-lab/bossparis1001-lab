@@ -17,3 +17,14 @@ Gain initial access and escalate privileges to root.
 ### Nmap Scan
 ```bash
 nmap -sC -sV -A <TARGET-IP>
+
+---
+
+## ✔️ 2. Exploitation
+```md id="e2".                                                                                                               ..............
+## Exploitation
+The SMB service was analyzed and misconfigurations were identified which allowed further access.                             ...............                                                                                                              ## Privilege Escalation
+System misconfigurations were used to escalate privileges to root.                                                            ............                                                                                                                  ## Lessons Learned
+- Enumeration is the most important phase in penetration testing
+- SMB misconfigurations can lead to unauthorized access
+- Proper privilege escalation requires careful system analysis
