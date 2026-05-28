@@ -1,17 +1,19 @@
-# TryHackMe – LAB NAME
+# TryHackMe – Kenobi
 
 ## Overview
-Brief description of the lab and objective.
+This room focused on SMB enumeration, misconfigurations, and privilege escalation techniques.
 
 ## Objective
-What was the goal of the exercise.
+Gain initial access and escalate privileges to root.
 
 ## Tools Used
-- Tool 1
-- Tool 2
-- Tool 3
+- Nmap
+- SMBClient
+- Netcat
+- SSH
 
 ## Enumeration
+
 ### Nmap Scan
 ```bash
 nmap -sC -sV -A <TARGET-IP>
