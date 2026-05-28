@@ -15,7 +15,9 @@ Gain initial access and escalate privileges to root.
 ## Enumeration
 
 ### Nmap Scan
+
 ```bash
+nmap -sC -sV -A <TARGET-IP>
 ## Exploitation
 The SMB service was analyzed and misconfigurations were identified which allowed further access.
 
