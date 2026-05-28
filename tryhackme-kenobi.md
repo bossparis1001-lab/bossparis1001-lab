@@ -1,19 +1,17 @@
-# TryHackMe – Kenobi
+# TryHackMe – LAB NAME
 
 ## Overview
-Room-kan waxaan ku bartay enumeration, SMB analysis, file sharing misconfigurations, iyo privilege escalation fundamentals.
+Brief description of the lab and objective.
 
 ## Objective
-Goal-ku wuxuu ahaa in la helo user access kadibna root (admin) privilege la gaaro.
+What was the goal of the exercise.
 
 ## Tools Used
-- Nmap
-- SMBClient
-- Netcat
-- SSH
+- Tool 1
+- Tool 2
+- Tool 3
 
 ## Enumeration
-
 ### Nmap Scan
 ```bash
 nmap -sC -sV -A <TARGET-IP>
